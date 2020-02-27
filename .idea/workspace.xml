@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e22b171-d384-4c43-aaa5-2731c42d4b88" name="Default Changelist" comment="" />
+    <list default="true" id="4e22b171-d384-4c43-aaa5-2731c42d4b88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/active/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/active/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/advertise/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/advertise/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/information/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/information/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/news/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/news/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/question/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/question/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/talk/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/talk/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/utils/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,28 +32,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TTW/TTW/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-              <folding>
-                <element signature="e#314#323#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TTW/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="446">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,26 +68,21 @@
         <option value="$PROJECT_DIR$/TTW/manage.py" />
         <option value="$PROJECT_DIR$/TTW/TTW/__init__.py" />
         <option value="$PROJECT_DIR$/TTW/TTW/settings/dev.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/active/urls.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/TTS.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/webServers.xml" />
-        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
-      </list>
-    </option>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="931" />
+    <option name="y" value="27" />
+    <option name="width" value="926" />
+    <option name="height" value="831" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="993" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -91,7 +112,7 @@
               <item name="TTS" type="462c0819:PsiDirectoryNode" />
               <item name="TTW" type="462c0819:PsiDirectoryNode" />
               <item name="TTW" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -101,11 +122,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tensquare" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps/utils" />
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps/user" />
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps/talk" />
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps/question" />
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps/news" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,23 +191,24 @@
       <updated>1581339828669</updated>
       <workItem from="1581339830077" duration="1400000" />
       <workItem from="1581341336605" duration="73000" />
-      <workItem from="1581341450521" duration="532000" />
+      <workItem from="1581341450521" duration="4033000" />
+      <workItem from="1581507220442" duration="1559000" />
+      <workItem from="1582792875352" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2005000" />
+    <option name="totallyTimeSpent" value="7105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="25" width="927" height="1055" extended-state="4" />
-    <editor active="true" />
+    <frame x="931" y="27" width="926" height="831" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26291618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27931035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43171805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57309943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -185,7 +217,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49972177" weight="0.43061674" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43459302" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027823" side_tool="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -199,7 +231,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TTS$manage.coverage" NAME="manage Coverage Results" MODIFIED="1581342022020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TTW" />
+    <SUITE FILE_PATH="coverage/TTS$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582792906784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TTW" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/importlib/__init__.py">
@@ -223,23 +255,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/contrib/admin/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/contrib/auth/admin.py">
@@ -256,13 +276,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/talk/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/question/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/news/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/information/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/advertise/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/active/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/active/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/news/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/question/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/talk/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/utils/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/advertise/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/information/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TTW/TTW/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-          <folding>
-            <element signature="e#314#323#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
