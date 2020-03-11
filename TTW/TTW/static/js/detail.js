@@ -347,7 +347,7 @@ var vm = new Vue({
 // 	var $tab_btn = $('.detail_tab li');
 // 	var $tab_con = $('.tab_content');
 // 	$tab_btn.click(function(){
-// 		$(this).addClass('active').siblings().removeClass('active');
+// 		$(this).addClass('gathering').siblings().removeClass('gathering');
 // 		$tab_con.eq( $(this).index() ).addClass('current').siblings().removeClass('current');
 // 	});
 //

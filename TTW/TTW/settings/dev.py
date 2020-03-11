@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
-
+import datetime
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -42,7 +42,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-
+    'haystack',
+    'ckeditor',
+    'ckeditor_uploader',
+    'article',
+    'gathering',
+    'question',
+    'recruit',
+    'spit',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -201,3 +209,47 @@ LOGGING = {
         },
     }
 }
+
+AUTH_USER_MODEL = 'user.User'
+
+# 富文本编辑器的配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 工具条功能
+        'height': 300,  # 编辑器高度
+        # 'width': 300,  # 编辑器宽
+    },
+}
+CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，使用了FastDFS，所以此处设为''
+
+#JWT认证配置
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        # 引入JWT认证机制，当客户端将jwt token传递给服务器之后
+        # 此认证机制会自动校验jwt token的有效性，无效会直接返回401(未认证错误)
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
+
+# JWT扩展配置
+JWT_AUTH = {
+    # 设置生成jwt token的有效时间
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+}
+
+AUTHENTICATION_BACKENDS = [
+    'user.utils.UsernameMobileAuthBackend',
+]
+
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://192.168.171.131:9200/', # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'TTW', # Elasticsearch建立的索引库的名称
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'

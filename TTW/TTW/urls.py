@@ -18,12 +18,13 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'',include('active.urls')),
-    url(r'',include('advertise.urls')),
-    url(r'',include('information.urls')),
-    url(r'',include('news.urls')),
+    url(r'',include('gathering.urls')),
+    url(r'',include('recruit.urls')),
+    url(r'',include('article.urls')),
     url(r'',include('question.urls')),
-    url(r'',include('talk.urls')),
+    url(r'',include('spit.urls')),
     url(r'',include('user.urls')),
-    url(r'',include('utils.urls')),
+    url(r'',include('sms.urls')),
+    url(r'^search/', include('haystack.urls')),
+    # url(r'',include('upload.urls')),
 ]

@@ -2,26 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e22b171-d384-4c43-aaa5-2731c42d4b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/active/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/active/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/advertise/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/advertise/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/information/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/information/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/news/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/news/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/question/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/question/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/talk/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/talk/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/utils/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/sms/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/fdfs_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/qiniu_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/viewsForQiniu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TTS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TTS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/active/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/advertise/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/gathering/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/information/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/recruit/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/article/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/sms/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/question/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/question/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/question/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/question/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/settings/configs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/spit/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/talk/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/apps/upload/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/apps/utils/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TTW/TTW/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/static/js/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/static/js/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/static/js/jquery.pagination.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/static/js/jquery.pagination.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTW/TTW/static/js/vue-2.5.16.js" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/static/js/vue-2.5.16.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TTW/TTW/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TTW/TTW/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,22 +80,113 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="TTW@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="TTW@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="TTW@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="TTW: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="TTW@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="TTW: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tb_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TTW/TTW/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="3132">
+              <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+              <folding>
+                <element signature="e#307#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/article/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TTW/manage.py">
+        <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="225">
+              <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/article/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/article/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,19 +208,40 @@
       <list>
         <option value="$PROJECT_DIR$/TTW/manage.py" />
         <option value="$PROJECT_DIR$/TTW/TTW/__init__.py" />
-        <option value="$PROJECT_DIR$/TTW/TTW/settings/dev.py" />
-        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/models.py" />
-        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py" />
         <option value="$PROJECT_DIR$/TTW/TTW/apps/active/urls.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/active/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/gathering/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/question/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/spit/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/readme.txt" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/upload/qiniu_storage.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/upload/urls.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/settings/configs.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/utils.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/sms/urls.py" />
         <option value="$PROJECT_DIR$/TTW/TTW/urls.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/question/views.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/recruit/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/recruit/serializers.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/recruit/views.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/sms/views.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/settings/dev.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/urls.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/views.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/article/models.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/article/urls.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/article/serializers.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/article/views.py" />
+        <option value="$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="931" />
-    <option name="y" value="27" />
-    <option name="width" value="926" />
-    <option name="height" value="831" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -89,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,28 +277,38 @@
               <item name="TTW" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TTS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TTS" type="462c0819:PsiDirectoryNode" />
+              <item name="TTW" type="462c0819:PsiDirectoryNode" />
+              <item name="TTW" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tensquare" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TTW/TTW/apps/sms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TTW/TTW/apps/utils" />
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps/sms" />
       <recent name="$PROJECT_DIR$/TTW/TTW/apps/user" />
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps" />
+      <recent name="$PROJECT_DIR$/TTW/TTW/apps/utils" />
       <recent name="$PROJECT_DIR$/TTW/TTW/apps/talk" />
-      <recent name="$PROJECT_DIR$/TTW/TTW/apps/question" />
-      <recent name="$PROJECT_DIR$/TTW/TTW/apps/news" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,172 +367,410 @@
       <workItem from="1581341450521" duration="4033000" />
       <workItem from="1581507220442" duration="1559000" />
       <workItem from="1582792875352" duration="40000" />
+      <workItem from="1583043437059" duration="7011000" />
+      <workItem from="1583316458259" duration="28068000" />
+      <workItem from="1583927425805" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7105000" />
+    <option name="totallyTimeSpent" value="42260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="931" y="27" width="926" height="831" extended-state="0" />
+    <frame x="67" y="25" width="1444" height="610" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27931035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27377522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.57309943" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38656387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32929516" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49972177" weight="0.43061674" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43459302" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5718475" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50027823" side_tool="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32929516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295063" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TTS$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582792906784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TTW" />
+    <SUITE FILE_PATH="coverage/TTS$manage.coverage" NAME="manage Coverage Results" MODIFIED="1583911887851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TTW" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1004">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/utils/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/logging/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="572" selection-start-line="572" selection-end-line="572" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/contrib/admin/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/contrib/auth/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/models.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/gathering/serializers.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/talk/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/question/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/news/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/information/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/advertise/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/active/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/active/urls.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/gathering/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/news/urls.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/spit/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/utils/urls.py" />
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/information/urls.py" />
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/information/models.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/ckeditor_uploader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/question/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/logs/meiduo.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/spit/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/upload/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/urls/resolvers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7771">
+          <caret line="397" selection-start-line="397" selection-end-line="397" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/upload/qiniu_storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/settings/configs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/contrib/sessions/backends/cached_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/rest_framework_jwt/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1876">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/rest_framework_jwt/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/sms/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/upload/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/question/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/talk/urls.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/question/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/question/serializers.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/urls.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/gathering/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/gathering/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/utils/urls.py">
+    <entry file="file://$PROJECT_DIR$/TTW/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/recruit/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/advertise/urls.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/recruit/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/sms/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+          <folding>
+            <element signature="e#83#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/sms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/django/core/cache/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django/lib/python3.6/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-635">
+          <caret line="912" column="8" selection-start-line="912" selection-start-column="8" selection-end-line="912" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="das://6712c105-ad2b-4163-81bc-8fe6df481e48/schema/TTW/table/tb_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="3cf8674c-7d4c-415c-8fc3-0889a01ef90e">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6712c105-ad2b-4163-81bc-8fe6df481e48/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/information/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#108#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/TTW/urls.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/recruit/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="30" />
           <folding>
-            <element signature="e#637#669#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/recruit/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/article/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TTW/TTW/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="3132">
+          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+          <folding>
+            <element signature="e#307#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTW/manage.py">
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/article/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="81">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/article/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/article/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTW/TTW/apps/user/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

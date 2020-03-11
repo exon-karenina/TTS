@@ -7437,10 +7437,10 @@ var autoCssTransition = cached(function (name) {
   return {
     enterClass: (name + "-enter"),
     enterToClass: (name + "-enter-to"),
-    enterActiveClass: (name + "-enter-active"),
+    enterActiveClass: (name + "-enter-gathering"),
     leaveClass: (name + "-leave"),
     leaveToClass: (name + "-leave-to"),
-    leaveActiveClass: (name + "-leave-active")
+    leaveActiveClass: (name + "-leave-gathering")
   }
 });
 

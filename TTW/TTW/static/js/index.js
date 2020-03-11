@@ -54,7 +54,7 @@ var vm = new Vue({
 //
 // 	$tab.click(function(){
 // 		var $index = $tab.index($(this));
-// 		$(this).addClass('active').siblings().removeClass('active');
+// 		$(this).addClass('gathering').siblings().removeClass('gathering');
 // 		$content.eq($index).addClass('goods_list_show').siblings().removeClass('goods_list_show');
 // 	});
 //
